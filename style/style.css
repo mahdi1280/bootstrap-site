@@ -1,0 +1,15 @@
+*{
+    direction: rtl;
+}
+.bg-top-nav{
+    background-color: rgb(47, 47, 47);
+    color: white;
+}
+.nav{
+    font-size: 14px;
+    margin: 0;
+}
+.titr-free-send{
+    font-size: 14px;
+    margin-top: 4px;
+}
