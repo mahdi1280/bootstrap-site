@@ -20,3 +20,38 @@
 .font-size-btn{
     font-size: 14px !important;
 }
+.shop-cart{
+    background-color: transparent;
+}
+.shop-cart:active , .shop-cart:hover{
+    background-color: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+.shop-cart::after{
+    background-image: none !important;
+    content: "";
+    width: 0 !important;
+    height: 0 !important;
+    border: none !important;
+}
+.shop-card-ul{
+    direction: rtl;
+    text-align: right;
+}
+.shop-card-ul li a img{
+    width: 64px;
+    height: 64px;
+}
+.shop-card-ul li{
+    padding: 4px;
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+    line-height: 17px;
+    font-size: 14px;
+}
+.close{
+    background-color: transparent;
+    border: none;
+}
