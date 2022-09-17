@@ -42,6 +42,7 @@
 .shop-card-ul li a img{
     width: 64px;
     height: 64px;
+    border: 1px solid #efefef;
 }
 .shop-card-ul li{
     padding: 4px;
